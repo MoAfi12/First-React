@@ -60,3 +60,47 @@ border-radius: 10px;
     color: grey;
     line-height: 29px;
 }
+
+@media screen and (max-width:600px) {
+    .nav{
+        width: 100%;
+        padding: 4px 10px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+     .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    background-color: wheat;
+    margin: 40px auto;
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+.hero-section .right-column img{
+    width: 400px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+
+    }
+    .hero-section .left-column{
+        width: 100%;
+        padding: 5px 20px;
+        letter-spacing: 2px;
+    }
+    
+.left-column h1{
+    font-size: 35px;
+}
+.left-column p{
+    font-size: 15px;
+    color: grey;
+    line-height: 29px;
+}
+
+}
